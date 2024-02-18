@@ -8,12 +8,12 @@ private:
 	double c;
 	double discriminant;
 	double GetDiscriminant(const double a, const double b, const double c) {
-		return b * b - 4 * a * c;
+		return b * b - 4.0 * a * c;
 	}
 public:
 	quadratic_equation(const double valueA, const double valueB, const double valueC) {
 		discriminant = GetDiscriminant(valueA, valueB, valueC);
-		if (discriminant < 0 || valueA == 0) {
+		if (discriminant < 0.0 || valueA == 0.0) {
 			std::cout << "the discriminant is less than zero or this equation is not square" << std::endl;
 			exit(-3);
 		}
@@ -22,13 +22,13 @@ public:
 		c = valueC;
 	}
 	void get_solution(double *& const solution, int & const size) {
-		double x1 = (-b + pow(discriminant, 0.5)) / 2 / a;
-		if (discriminant == 0) {
+		double x1 = (-b + pow(discriminant, 0.5)) / 2.0 / a;
+		if (discriminant == 0.0) {
 			solution = new double;
 			solution[0] = x1;
 			size = 1;
 		}
-		double x2 = (-b - pow(discriminant, 0.5)) / 2 / a;
+		double x2 = (-b - pow(discriminant, 0.5)) / 2.0 / a;
 		solution = new double[2];
 		solution[0] = x1;
 		solution[1] = x2;
