@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="eqw.cpp">
+    <ClCompile Include="students_eqw.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

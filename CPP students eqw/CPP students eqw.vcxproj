@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{070496a6-4b81-4b68-9ac3-c2861ed08f70}</ProjectGuid>
-    <RootNamespace>CPPqwatreqw</RootNamespace>
+    <ProjectGuid>{1eae1922-ac87-4aa7-a319-d834c67cd0ff}</ProjectGuid>
+    <RootNamespace>CPPstudentseqw</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="eqw.cpp" />
+    <ClCompile Include="students_eqw.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
