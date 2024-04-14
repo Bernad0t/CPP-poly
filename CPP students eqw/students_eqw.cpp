@@ -232,7 +232,7 @@ void ReadFileCoeff(ifstream& file, vector<quadratic_equation*>* list_task) {
 }
 
 int main() {
-	ifstream file_coeff("C:/Games/cpp files/qwtr eqw.txt"); //(x^2 - 1 записан как 1 0 -1 и тд)
+	ifstream file_coeff("../qwtr eqw.txt"); //(x^2 - 1 записан как 1 0 -1 и тд)
 	vector<quadratic_equation*> list_task;
 	ReadFileCoeff(file_coeff, &list_task); 
 	file_coeff.close();
