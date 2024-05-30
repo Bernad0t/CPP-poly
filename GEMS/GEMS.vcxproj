@@ -135,7 +135,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bonuses.cpp" />
+    <ClCompile Include="Drow.cpp" />
+    <ClCompile Include="engine.cpp" />
+    <ClCompile Include="field.cpp" />
+    <ClCompile Include="game.cpp" />
     <ClCompile Include="gems.cpp" />
+    <ClCompile Include="item.cpp" />
+    <ClCompile Include="process_input.cpp" />
+    <ClCompile Include="Update.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bonuses.h" />
+    <ClInclude Include="engine.h" />
+    <ClInclude Include="field.h" />
+    <ClInclude Include="item.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
